@@ -1,9 +1,21 @@
+.navbar-brand{
+    margin-bottom: 1px;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-style:groove;
+}
+
 .banner1{
     width: screen;
     height: 600px;
     border: 1px solid black;
     margin: auto;
-    background-image: url(kjjjj\ ysygng.gif);
+    background-image: url(kjjjj\ ysygn.gif);
     background-size: 100% 100%;
 }
 
@@ -37,19 +49,48 @@
     padding-top: 50px;
 }
 
-h1{
+h1.text{
     font-size: 30px;
     line-height: 45px;
     font-family: 'Roboto Mono', monospace;
     margin-bottom: 20px;
 }
 
-p{
+p.text2{
     font-size: 17px;
     line-height: 25px;
     font-family: 'Roboto Mono', monospace;
     margin-bottom: 20px;
     padding-top: 10px;
+}
+
+.bi{
+    margin-right:10px;
+    margin-left: 5px;
+    width:30px;
+    height:30px;
+}
+
+.bi.bi-github{
+    fill: whitesmoke;
+}
+
+.bi.bi-github:hover{
+    fill: white;
+}
+
+.bi.bi-facebook{
+    fill: blue;   
+}
+
+.bi.bi-facebook:hover{
+    fill: rgb(5,70,249);
+}
+
+.nav-link.login{
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
