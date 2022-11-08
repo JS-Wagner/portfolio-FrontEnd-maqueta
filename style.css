@@ -2,6 +2,11 @@
     margin-bottom: 1px;
 }
 
+.navbar-brand.cuc {
+    font-size: 16px;
+    margin-top: 3px;
+}
+
 .logo{
     width: auto;
     height: auto;
