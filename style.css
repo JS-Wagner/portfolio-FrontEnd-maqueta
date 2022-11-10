@@ -15,20 +15,29 @@
     border-style:groove;
 }
 
-.banner1{
-    width: screen;
-    height: 600px;
-    border: 1px solid black;
-    margin: auto;
-    background-image: url(kjjjj\ ysygn.gif);
-    background-size: 100% 100%;
+.pfp1{
+    width: 90px;
+    height: 90px;
+    margin-left: 15px;
+    top: 435px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 100%;
+    background-image: url(/kjjjj\ ysygng.gif);
+    position: absolute;
 }
 
-.banner2{
+.banner1{
     width: screen;
-    height: 630px;
-    border: 1px solid black;
+    height: 400px;
     margin: auto;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-image: url(/kjjjj\ ysygng.gif);
     background-size: 100% 100%;
 }
 
@@ -36,37 +45,73 @@
     width: screen;
     height: 630px;
     border: 1px solid black;
-    margin: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-size: 100% 100%;
+}
+
+.aboutme{
+    width:screen;
+    height: 160px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     background-size: 100% 100%;
 }
 
 .aboutleft{
-    width: 53%;
+    width: 25%;
+    height: 143px;
     float: left;
-    margin-right: 7%;
+    margin-left: 5px;
+    margin-top: 7px;
     padding-top: 50px;
+}
+
+.titleleft1{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.aboutleftparrafo{
+    float: left;
+    margin-top: 8px;
 }
 
 .aboutright{
-    width: 40%;
+    width: 74.62%;
+    height: 143px;
     float: right;
-    text-align: left;
-    padding-top: 50px;
+    margin-top: 7px;
+    padding-left: 5px;
+    padding-top: 20px;
 }
 
-h1.text{
-    font-size: 30px;
-    line-height: 45px;
+.titleright1{
+    font-size: 18px bold;
+    line-height: 20px;
     font-family: 'Roboto Mono', monospace;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
-p.text2{
-    font-size: 17px;
-    line-height: 25px;
+.text2{
+    font-size: 14px;
+    line-height: 20px;
     font-family: 'Roboto Mono', monospace;
-    margin-bottom: 20px;
-    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.aboutleftparrafo{
+    font-size:18px;
+    line-height: 3px;
+    font-family:'Times New Roman', Times, serif
 }
 
 .bi{
