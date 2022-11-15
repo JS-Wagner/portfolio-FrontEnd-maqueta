@@ -19,7 +19,7 @@
     width: 90px;
     height: 90px;
     margin-left: 15px;
-    top: 435px;
+    margin-top: -40px;
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
@@ -43,13 +43,26 @@
 
 .banner3{
     width: screen;
-    height: 1080px;
-    border: 1px solid white;
+    height: auto;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 3px;
+    background-size: 100% 100%;
+}
+
+.banner4{
+    width: screen;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-size: 100% 100%;
 }
 
@@ -110,11 +123,10 @@ h4.card-title{
 
 .aboutleft{
     padding: 15px;
-    width: 25%;
-    height: 143px;
-    float: left;
+    width: auto;
+    height: auto;
     margin-left: 5px;
-    margin-top: 7px;
+    margin-top: 10px;
     padding-top: 50px;
 }
 
@@ -123,10 +135,9 @@ h4.card-title{
 }
 
 .aboutleftparrafo{
-    float: left;
-    margin-top: 8px;
+    margin-top: 15px;
     font-size:18px;
-    line-height: 3px;
+    line-height: 5px;
     font-family:'Times New Roman', Times, serif
 }
 
@@ -178,4 +189,115 @@ h4.card-title{
 
 html {
     scroll-behavior: smooth;
+}
+
+<!--Footer-->
+
+.site-footer{
+    background-color:#26272b;
+    padding:15px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+}
+.site-footer hr{
+    border-top-color:#bbb;
+    opacity:0.5
+}
+.site-footer hr.small{
+    margin:20px 0;
+}
+.site-footer h6{
+    color: slategray;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:px;
+    letter-spacing:2px
+}
+.site-footer a{
+    color:#737373;
+    text-decoration: none;
+}
+.site-footer a:hover{
+    color:#3366cc;
+    text-decoration:none;
+}
+.footer-links{
+    padding-left:0;
+    list-style:none
+}
+.footer-links li{
+    display:block
+}
+.footer-links a{
+    color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+    color:#3366cc;
+    text-decoration:none;
+}
+.footer-links.inline li{
+    display:inline-block
+}
+.site-footer .social-icons{
+    text-align:right
+}
+.site-footer .social-icons svg{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#000000
+}
+.copyright-text{
+    margin:0
+}
+@media (max-width:991px){
+    .site-footer [class^=col-]{
+    margin-bottom:30px
+    }
+}
+@media (max-width:767px){
+    .site-footer{
+    padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons{
+    text-align:center
+    }
+}
+.social-icons{
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.social-icons li{
+    display:inline-block;
+    margin-bottom:4px
+}
+.social-icons li.title{
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#fafcff;
+    font-weight:700;
+    font-size:13px
+}
+.social-icons svg:active,.social-icons svg:focus,.social-icons svg:hover{
+    color: rgb(255, 255, 255);
+    background-color: #11b5e7;
+}
+.social-icons.size-sm svg{
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+}
+@media (max-width:767px)
+{
+.social-icons li.title{
+    display:block;
+    margin-right:0;
+    font-weight:600
+}
 }
